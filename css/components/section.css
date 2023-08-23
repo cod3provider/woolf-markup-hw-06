@@ -1,0 +1,18 @@
+.section {
+    padding-top: var(--section-padding-top);
+    padding-bottom: var(--section-padding-bottom);
+}
+
+.section_no_padding_top {
+    padding-top: 0;
+}
+
+.section_title {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--section-title-color);
+    text-transform: capitalize;
+}

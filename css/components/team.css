@@ -1,0 +1,38 @@
+.team {
+    background: var(--team-section-bg-color);
+}
+
+.team_list {
+    display: flex;
+    gap: 24px;
+    /*justify-content: space-between;*/
+}
+
+.teammate_title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--card-title-color);
+}
+
+.teammate_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team_list-item {
+    width: 264px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+.team_thumb {
+    padding: 32px 0;
+    text-align: center;
+    background: #FFFFFF;
+}

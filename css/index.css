@@ -1,0 +1,22 @@
+/* BASE */
+@import "./base/reset.css";
+
+/* UTILS */
+@import "./utils/variables.css";
+@import "./utils/visually-hidden.css";
+
+ /* LAYOUTS */
+@import './layouts/header.css';
+@import './layouts/footer.css';
+
+ /* COMPONENTS */
+@import './components/container.css';
+@import './components/section.css';
+@import './components/mobile-menu.css';
+@import './components/hero.css';
+@import './components/works.css';
+@import './components/team.css';
+@import './components/social-list.css';
+@import './components/brands.css';
+@import './components/portfolio.css';
+@import './components/modal.css';

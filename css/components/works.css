@@ -1,0 +1,4 @@
+.works_list {
+    display: flex;
+    gap: 24px;
+}

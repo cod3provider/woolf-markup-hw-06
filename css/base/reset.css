@@ -1,0 +1,38 @@
+body {
+    font-family: var(--body-font-family);
+    color: var(--body-text-color);
+    background: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list, li {
+    list-style: none;
+}
+
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
