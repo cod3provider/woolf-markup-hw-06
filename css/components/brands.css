@@ -2,12 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px 16px;
+
+    @media (768px <= width) {
+        gap: 72px 24px;
+    }
+
+    @media (1158px <= width) {
+        gap: 24px;
+    }
 }
 
 .brands_item {
-    width: 168px;
+    width: 190px;
     height: 88px;
+
+    @media (768px <= width) {
+        width: 168px;
+    }
 }
 
 .brands_link {
