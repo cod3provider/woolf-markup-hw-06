@@ -14,9 +14,12 @@
 @import './components/section.css';
 @import './components/mobile-menu.css';
 @import './components/hero.css';
+@import "./components/features.css";
 @import './components/works.css';
 @import './components/team.css';
 @import './components/social-list.css';
 @import './components/brands.css';
 @import './components/portfolio.css';
 @import './components/modal.css';
+
+/**/
