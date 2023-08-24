@@ -1,7 +1,6 @@
 .container {
     margin: 0 auto;
     padding: 0 16px;
-    /*min-width: 320px;*/
 
     @media (428px <= width) {
         width: 428px;

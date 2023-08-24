@@ -13,7 +13,6 @@
     }
 
     @media (1158px <= width) {
-        /*justify-content: space-between;*/
         gap: 24px;
     }
 }
