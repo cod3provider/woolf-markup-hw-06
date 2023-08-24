@@ -45,14 +45,17 @@
 }
 
 .feature_title {
-    @media (width < 1158px) {
+    @media (width < 767px) {
         text-align: center;
+    }
+
+    @media (width < 1158px) {
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
     }
-
+    
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
