@@ -1,5 +1,13 @@
 .portfolio_section {
-    padding: 96px 0 120px;
+    padding: 48px 0;
+
+    @media (768px <= width) {
+        padding: 64px 0 96px;
+    }
+
+    @media (1158px <= width) {
+        padding: 96px 0 120px;
+    }
 }
 
 .filter {
@@ -7,12 +15,18 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 72px;
 
     @media (width < 768px) {
+    margin-bottom: 48px;
         justify-content: flex-start;
         gap: 16px 24px;
     }
+
+    @media (768px <= width < 1158px) {
+        margin-bottom: 64px;
+    }
+
+    margin-bottom: 72px;
 }
 
 .filter_btn {
