@@ -27,8 +27,10 @@
 
     /* Section */
     --section-title-color: #2E2F42;
-    --section-padding-top: 120px;
-    --section-padding-bottom: 120px;
+    --section-padding-top-desktop: 120px;
+    --section-padding-bottom-desktop: 120px;
+    --section-padding-top-mobile: 96px;
+    --section-padding-bottom-mobile: 96px;
 
     /* Feature */
     --feature-color-text: #434455;

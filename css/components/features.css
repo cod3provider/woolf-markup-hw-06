@@ -1,7 +1,6 @@
 .features_list {
     display: flex;
     flex-direction: column;
-    /*width: 100%;*/
 
     @media (width < 768px) {
         gap: 72px;
@@ -14,14 +13,13 @@
     }
 
     @media (1158px <= width) {
-        flex-direction: row;
         justify-content: space-between;
         gap: 24px;
     }
 }
 
 .features_item {
-    @media (768px <= width) {
+    @media (768px <= width < 1158px) {
         flex-basis: calc((100% - 24px) / 2);
     }
 
