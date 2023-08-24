@@ -4,8 +4,20 @@
 
 .team_list {
     display: flex;
+
+    @media (width < 768px) {
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    @media (768px <= width < 1158px) {
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        width: 552px;
+        margin: 0 auto;
+    }
+
     gap: 24px;
-    /*justify-content: space-between;*/
 }
 
 .teammate_title {
@@ -18,12 +30,17 @@
 }
 
 .teammate_text {
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .team_list-item {
+    @media (width < 768px) {
+        align-self: center;
+    }
+
     width: 264px;
     background: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
