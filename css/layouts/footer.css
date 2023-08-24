@@ -102,7 +102,6 @@
 
 .footer_form_input {
     padding: 8px 16px;
-    width: 264px;
     height: 40px;
     font-size: 12px;
     font-style: normal;
@@ -119,6 +118,8 @@
     @media (width < 768px) {
         width: 100%;
     }
+
+    width: 264px;
 
     @media (1158px <= width) {
         border: 1px solid rgb(255, 255, 255);
