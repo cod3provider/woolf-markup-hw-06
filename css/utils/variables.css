@@ -1,23 +1,43 @@
 :root {
+    /* Body */
     --body-font-family: 'Roboto', sans-serif;
-    --logo-font-family: 'Raleway', sans-serif;
     --body-color: #FFFFFF;
     --body-text-color: #434455;
+
+    /*!* Breakpoints *!*/
+    /*--bigMobile: 428px;*/
+    /*--tablet: 768px;*/
+    /*--desktop: 1158px;*/
+
+    /* Logo */
+    --logo-font-family: 'Raleway', sans-serif;
     --logo-font-size: 18px;
     --logo-color: #4D5AE5;
     --logo-dark-color: #2E2F42;
     --logo-white-color: #f4f4fd;
+
+    /* nav */
     --nav-link-color: #2E2F42;
     --nav-link-color-hover: #404BBF;
     --nav-link-font-size: 16px;
+
+    /* Hero */
     --hero-title-color: #FFFFFF;
     --hero-title-font-size-desktop: 56px;
+
+    /* Section */
     --section-title-color: #2E2F42;
+    --section-padding-top: 120px;
+    --section-padding-bottom: 120px;
+
+    /* Feature */
     --feature-color-text: #434455;
     --card-title-color: #2E2F42;
     --card-title-font-size: 20px;
     --card-text-font-size: 16px;
     --team-section-bg-color: #F4F4FD;
+
+    /* Portfolio */
     --filter-bg-color: #F4F4FD;
     --filter-text-color: #4D5AE5;
     --filter-text-font-size: 16px;
@@ -28,17 +48,21 @@
     --portfolio-card-text-font-size: 16px;
     --portfolio-bg-card-color-hover: #4D5AE5;
     --portfolio-text-color-hover: #F4F4FD;
+
+    /* Footer */
     --footer-text-color: #F4F4FD;
     --footer-bg-color: #2E2F42;
     --footer-social-link-bg-hover: #31D0AA;
+
+    /* Buttons & links */
     --btn-bg-color: #4D5AE5;
     --btn-color: #ffffff;
     --btn-bg-hover: #404BBF;
     --link-color-hover: #404BBF;
-    --section-padding-top: 120px;
-    --section-padding-bottom: 120px;
     --customers-icon-color: #8e8f99;
     --social-link-bg-hover: #404BBF;
+
+    /* Modal */
     --modal-text-color: #8e8f99;
     --input-active-color: #4D5AE5;
 }

@@ -11,7 +11,7 @@
         width: 768px;
     }
 
-    @media (768px <= width) {
+    @media (1158px <= width) {
         padding: 0 15px;
         width: 1158px;
     }
