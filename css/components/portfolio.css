@@ -5,8 +5,14 @@
 .filter {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 24px;
     margin-bottom: 72px;
+
+    @media (width < 768px) {
+        justify-content: flex-start;
+        gap: 16px 24px;
+    }
 }
 
 .filter_btn {
