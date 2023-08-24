@@ -7,20 +7,47 @@
 }
 
 .hero {
+    @media (width < 768px) {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/hero/hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media (768px <= width) {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/hero/hero-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
     max-width: 1440px;
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/hero/hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/hero/hero-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .hero-title {
-    max-width: 496px;
     margin: 0 auto;
+    max-width: 320px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    @media (768px <= width) {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+    }
 }
 
 .hero-btn {
