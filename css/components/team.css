@@ -11,10 +11,9 @@
     }
 
     @media (768px <= width < 1158px) {
+        justify-content: center;
         flex-wrap: wrap;
         gap: 64px 24px;
-        width: 552px;
-        margin: 0 auto;
     }
 
     gap: 24px;
