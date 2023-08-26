@@ -66,6 +66,10 @@
 
 .footer_title,
 .footer_form_title {
+    @media (width < 768px) {
+        text-align: center;
+    }
+
     margin-bottom: 16px;
     font-size: var(--card-text-font-size);
     font-weight: 500;
